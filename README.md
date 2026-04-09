@@ -14,4 +14,4 @@ Instead of fine-tuning, RAG retrieves relevant information from an external know
 
 **Figure 1: RAG Architecture**
 
-![RAG Pipeline](./figures/rag_pipeline.png)
+![RAG Pipeline](./figures/rag-pipeline.png)
