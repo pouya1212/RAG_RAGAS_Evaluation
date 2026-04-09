@@ -5,7 +5,7 @@ This repository presents a working prototype of a Retrieval-Augmented Generation
 The CSV file contains questions, and answers can be found here
 
 ```
- `Data/ragas_10_new_questions.csv`
+ Data/ragas_10_new_questions.csv
 
 ```
 
