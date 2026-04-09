@@ -4,7 +4,7 @@ This repository presents a working prototype of a Retrieval-Augmented Generation
 
 The CSV file contains questions, and answers can be found here
 
-`RAG_RAGAS_Evaluation.ipynb`
+`Data/ragas_10_new_questions.csv`
 
 For the complete Python framework and step-by-step implementation, please refer to the Jupyter Notebook:
 
