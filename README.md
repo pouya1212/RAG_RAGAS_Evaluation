@@ -1,6 +1,6 @@
 ##  About This Repository
 
-In this repository, an RAG pipeline was implemented, and its performance was evaluated using RAGAS metrics. The goal was to apply RAG on a set of PDF files related to pathology report generation using Vision-Language Models (VLMs). To evaluate the performance of the RAG system, a synthetic dataset was created from question–answer pairs derived from these papers. This dataset was then used to assess the RAG pipeline using LLM-based evaluation through RAGAS metrics.
+This repository presents a working prototype of a Retrieval-Augmented Generation (RAG) system. It demonstrates an end-to-end pipeline including document retrieval, answer generation, and evaluation using RAGAS metrics on a pathology report dataset. To evaluate performance, a synthetic question–answer dataset was created from the underlying papers. This dataset is used to assess the RAG system via LLM-based evaluation, measuring how well the generated responses align with the ground truth and the retrieved context.
 
 The CSV file contains questions, and answers can be found here
 
