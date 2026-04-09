@@ -8,6 +8,9 @@ If your data is static and does not change often, fine-tuning a model is an opti
 
 Instead of fine-tuning, RAG retrieves relevant information from an external knowledge source and provides it as additional context to the LLM. This helps the model generate more accurate and reliable responses without retraining.
 
+### References
+
+* [Simple RAG for GitHub issues using Hugging Face Zephyr and LangChain](https://huggingface.co/learn/cookbook/rag_zephyr_langchain)
 ---
 
 ##  RAG Pipeline
