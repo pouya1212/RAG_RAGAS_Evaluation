@@ -1,6 +1,19 @@
+##  About This Repository
+
+In this repository, an RAG pipeline was implemented, and its performance was evaluated using RAGAS metrics. The goal was to apply RAG on a set of PDF files related to pathology report generation using Vision-Language Models (VLMs). To evaluate the performance of the RAG system, a synthetic dataset was created from question–answer pairs derived from these papers. This dataset was then used to assess the RAG pipeline using LLM-based evaluation through RAGAS metrics.
+
+CSV file contains Question and answers can be found here
+
+`RAG_RAGAS_Evaluation.ipynb`
+
+For the complete Python framework and step-by-step implementation, please refer to the Jupyter Notebook:
+
+👉 `RAG_RAGAS_Evaluation.ipynb`
+
+
 ## What is RAG?
 
-RAG (Retrieval-Augmented Generation) is a technique used to improve the performance of Large Language Models (LLMs). It helps address the problem of an LLM lacking specific or up-to-date information that was not part of its training data, or generating incorrect information (hallucinations).
+RAG (Retrieval-Augmented Generation) is a technique used to improve the performance of Large Language Models (LLMs). It helps address the problem of an LLM lacking specific or up-to-date information not part of its training data, or of generating incorrect information (hallucinations).
 
 This is especially useful when working with data that is private, frequently updated, or not included in the model’s training data.
 
@@ -50,4 +63,10 @@ The evaluation pipeline measures the quality of generated answers by comparing t
   - **Answer Relevancy** → How relevant the answer is to the question  
   - **Context Precision** → How relevant the retrieved context is  
   - **Context Recall** → How much important information is retrieved  
-  - **Answer Correctness** → How close the answer is to the ground truth  
+  - **Answer Correctness** → How close the answer is to the ground truth
+
+
+
+For the complete Python framework and step-by-step implementation, please refer to the Jupyter Notebook:
+
+👉 `RAG_RAGAS_Evaluation.ipynb`
