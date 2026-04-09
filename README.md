@@ -36,7 +36,7 @@ The Retrieval-Augmented Generation (RAG) pipeline improves LLM responses by grou
 
 The figure below illustrates the full RAG workflow, including both data preparation and the query-answering process. It shows how documents are processed into embeddings, stored in a vector database, and later retrieved to provide context for the LLM. The retriever finds relevant chunks, and the reader (LLM) uses them to generate accurate and context-aware responses.
 
-![RAG Pipeline](./figures/rag_pipeline.png)
+![RAG Pipeline](./figures/rag-pipeline.png)
 
 ---
 
