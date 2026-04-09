@@ -24,7 +24,7 @@ Instead of fine-tuning, RAG retrieves relevant information from an external know
 ### References
 
 * [Simple RAG for GitHub issues using Hugging Face Zephyr and LangChain](https://huggingface.co/learn/cookbook/rag_zephyr_langchain)
-  [Simple Evaluation of RAG](https://namratanwani.medium.com/evaluate-rag-with-ragas-e1ad1aa99c2e)
+* [Simple Evaluation of RAG](https://namratanwani.medium.com/evaluate-rag-with-ragas-e1ad1aa99c2e)
 ---
 
 ##  RAG Pipeline
