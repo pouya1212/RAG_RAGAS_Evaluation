@@ -69,6 +69,18 @@ The evaluation pipeline measures the quality of generated answers by comparing t
   - **Context Recall** → How much important information is retrieved  
   - **Answer Correctness** → How close the answer is to the ground truth
 
+##  Evaluation Results
 
+The RAG system was evaluated using RAGAS metrics on a synthetic question–answer dataset derived from the pathology report papers.
+
+| Metric                 | Score  |
+|----------------------|--------|
+| Faithfulness         | 0.8983 |
+| Answer Relevancy     | 0.7863 |
+| Context Precision    | 0.8250 |
+| Context Recall       | 0.7000 |
+| Answer Correctness   | 0.5960 |
+
+These results indicate that the system performs well in grounding answers in the retrieved context (high faithfulness and precision), while there is still room for improvement in context recall and overall answer correctness.
 
 
