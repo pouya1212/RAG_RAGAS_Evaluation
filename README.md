@@ -9,7 +9,9 @@ The CSV file contains questions, and answers can be found here
 
 ```
 
+## Vector Similarity
 
+The retrieval process uses **cosine similarity** to compare the user query with stored document embeddings. This ensures that the system retrieves the most semantically relevant chunks based on meaning rather than exact keyword matching. Cosine similarity measures the angle between two vectors, enabling the system to effectively find similar content even when the wording differs.
 For the complete Python framework and step-by-step implementation, please refer to the Jupyter Notebook:
 
 ```
